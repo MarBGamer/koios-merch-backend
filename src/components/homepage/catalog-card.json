@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_homepage_catalog_cards",
+  "info": {
+    "displayName": "catalogCard",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "priceLabel": {
+      "type": "string",
+      "required": true
+    },
+    "buttonLabel": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

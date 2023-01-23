@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_general_navigations",
+  "info": {
+    "displayName": "navigation"
+  },
+  "options": {},
+  "attributes": {
+    "shopLabel": {
+      "type": "string",
+      "required": true
+    },
+    "galleryLabel": {
+      "type": "string",
+      "required": true
+    },
+    "aboutLabel": {
+      "type": "string",
+      "required": true
+    },
+    "searchPlaceholder": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

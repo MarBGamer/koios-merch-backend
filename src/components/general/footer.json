@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_general_footers",
+  "info": {
+    "displayName": "footer"
+  },
+  "options": {},
+  "attributes": {
+    "contactLabel": {
+      "type": "string",
+      "required": true
+    },
+    "faqLabel": {
+      "type": "string",
+      "required": true
+    },
+    "shippingLabel": {
+      "type": "string",
+      "required": true
+    },
+    "returnsLabel": {
+      "type": "string",
+      "required": true
+    },
+    "tosLabel": {
+      "type": "string",
+      "required": true
+    },
+    "privacyLabel": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

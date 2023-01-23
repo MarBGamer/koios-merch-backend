@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_homepage_catalogs",
+  "info": {
+    "displayName": "catalog",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "catalogHeader": {
+      "type": "string",
+      "required": true
+    },
+    "cards": {
+      "displayName": "catalog-card",
+      "type": "component",
+      "repeatable": true,
+      "component": "homepage.catalog-card",
+      "max": 3,
+      "required": true,
+      "min": 3
+    }
+  }
+}

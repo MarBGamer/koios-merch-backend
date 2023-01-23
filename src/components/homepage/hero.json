@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_homepage_heroes",
+  "info": {
+    "displayName": "hero"
+  },
+  "options": {},
+  "attributes": {
+    "heroSlogan": {
+      "type": "string",
+      "required": true
+    },
+    "heroHeader": {
+      "type": "string",
+      "required": true
+    },
+    "heroButton": {
+      "type": "string",
+      "required": true
+    },
+    "heroInformation": {
+      "type": "string",
+      "required": true
+    },
+    "slider": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true,
+      "required": true
+    }
+  }
+}
