@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_productpage_related_products",
+  "info": {
+    "displayName": "RelatedProducts",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "cards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "homepage.catalog-card",
+      "required": true,
+      "min": 3,
+      "max": 3
+    },
+    "relatedLabel": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

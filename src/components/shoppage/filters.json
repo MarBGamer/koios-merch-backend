@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_shoppage_filters",
+  "info": {
+    "displayName": "filters"
+  },
+  "options": {},
+  "attributes": {
+    "filtersHeader": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

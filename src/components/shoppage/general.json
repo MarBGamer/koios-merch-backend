@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_shoppage_generals",
+  "info": {
+    "displayName": "general"
+  },
+  "options": {},
+  "attributes": {
+    "buttonLabel": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

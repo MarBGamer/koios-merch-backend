@@ -1,0 +1,42 @@
+{
+  "collectionName": "components_productpage_product_details",
+  "info": {
+    "displayName": "ProductDetails",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "sizeLabel": {
+      "type": "string",
+      "required": true
+    },
+    "buttonLabel": {
+      "type": "string",
+      "required": true
+    },
+    "descriptionLabel": {
+      "type": "string",
+      "required": true
+    },
+    "sizeguideLabel": {
+      "type": "string",
+      "required": true
+    },
+    "typeLabel": {
+      "type": "string",
+      "required": true
+    },
+    "styleLabel": {
+      "type": "string",
+      "required": true
+    },
+    "sizeguideText": {
+      "type": "text",
+      "required": true
+    },
+    "colorLabel": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
