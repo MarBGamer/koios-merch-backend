@@ -1,7 +1,8 @@
 {
   "collectionName": "components_homepage_abouts",
   "info": {
-    "displayName": "about"
+    "displayName": "about",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -9,21 +10,24 @@
       "type": "string",
       "required": true
     },
-    "description": {
-      "type": "text",
-      "required": true
-    },
     "buttonLabel": {
       "type": "string",
       "required": true
     },
     "image": {
-      "allowedTypes": [
-        "images"
-      ],
       "type": "media",
       "multiple": false,
-      "required": true
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "description": {
+      "type": "component",
+      "repeatable": true,
+      "component": "general.paragraph",
+      "required": true,
+      "min": 1
     }
   }
 }

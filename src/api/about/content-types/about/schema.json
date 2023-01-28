@@ -1,10 +1,10 @@
 {
   "kind": "singleType",
-  "collectionName": "shops",
+  "collectionName": "abouts",
   "info": {
-    "singularName": "shop",
-    "pluralName": "shops",
-    "displayName": "Shop",
+    "singularName": "about",
+    "pluralName": "abouts",
+    "displayName": "About",
     "description": ""
   },
   "options": {
@@ -16,8 +16,8 @@
     }
   },
   "attributes": {
-    "filters": {
-      "displayName": "filters",
+    "about": {
+      "displayName": "about",
       "type": "component",
       "repeatable": false,
       "pluginOptions": {
@@ -25,10 +25,11 @@
           "localized": true
         }
       },
-      "component": "shoppage.filters"
+      "component": "aboutpage.about",
+      "required": true
     },
-    "general": {
-      "displayName": "general",
+    "community": {
+      "displayName": "community",
       "type": "component",
       "repeatable": false,
       "pluginOptions": {
@@ -36,7 +37,7 @@
           "localized": true
         }
       },
-      "component": "shoppage.general",
+      "component": "aboutpage.community",
       "required": true
     },
     "title": {

@@ -1,0 +1,45 @@
+{
+  "collectionName": "components_aboutpage_abouts",
+  "info": {
+    "displayName": "about",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "aboutHeader": {
+      "type": "string",
+      "required": true
+    },
+    "merchHeader": {
+      "type": "string",
+      "required": true
+    },
+    "merchText": {
+      "displayName": "paragraph",
+      "type": "component",
+      "repeatable": true,
+      "component": "general.paragraph",
+      "required": true,
+      "min": 1
+    },
+    "worldHeader": {
+      "type": "string",
+      "required": true
+    },
+    "worldText": {
+      "type": "component",
+      "repeatable": true,
+      "component": "general.paragraph",
+      "required": true,
+      "min": 1
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_aboutpage_communities",
+  "info": {
+    "displayName": "community",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "communityHeader": {
+      "type": "string",
+      "required": true
+    },
+    "socialsHeader": {
+      "type": "string",
+      "required": true
+    },
+    "cards": {
+      "displayName": "card",
+      "type": "component",
+      "repeatable": true,
+      "component": "aboutpage.card",
+      "required": true,
+      "max": 3,
+      "min": 3
+    },
+    "twitterLink": {
+      "type": "string",
+      "required": true,
+      "regex": "^https:\\/\\/(.*)"
+    }
+  }
+}
